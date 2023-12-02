@@ -9,4 +9,83 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+/* Styles added by Manuela Bajenaru */
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+header {
+  background-color: hsl(0deg, 0%, 100%);
+  /* white */
+}
+
+main {
+  background-color: hsl(0deg, 0%, 30%);
+  /*(dark)*/
+  height: 100%;
+  border-top: 8px solid hsl(0deg, 0%, 60%);
+  /*(light)*/
+  ;
+}
+
+.max-width-wrapper {
+  width: 100%;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+
+section {
+  margin-top: 64px;
+}
+
+.intro-chunk {
+  max-width: 800px;
+  min-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 96px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.intro-chunk p {
+  max-width: 400px;
+}
+
+.intro-chunk p:last-child {
+  margin-bottom: 64px;
+}
+
+.intro-chunk p:first-of-type {
+  margin-top: 64px;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  /* white */
+  max-width: 800px;
+  min-width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);    /*(light)*/
+  padding-left: 24px;
+  padding-right: 24px;
+  border-top: 1px solid hsl(0deg, 100%, 100%);    /*lighter*/
+}
+
+.indented-heading {
+  font-size: 1.5rem;
+  background-color: hsl(45deg, 100%, 50%);    /*lighter*/
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);    /*darker*/
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  width: fit-content;
+  margin-left: -32px;
+  margin-top: 7px;
+}
